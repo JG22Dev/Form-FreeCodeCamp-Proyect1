@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link de css-->
+    <link rel="stylesheet" href="style.css">
+    <!--titulo-->
+    <title>1erProyeco</title>
+</head>
+<body>
+    <main>
+        <div id="datos">
+            <h1 id="title">Encuesta de Programacion</h1>
+            <p id="description">Breve encuesta para saber que te gusta de la programacion</p>
+            </div>
+       <form action="" id="survey-form">
+            <div id="formGrup">
+                <label for="nombre" id="name-label">Nombre Completo</label>
+                <input type="text" required  id="name" placeholder="  Ingresa tu nombre completo">
+            </div>
+            <div id="formGrup">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" required id="email" placeholder="    abcde@mail.com">
+            </div>
+            <div id="formGrup">
+                <label for="edad" id="number-label">Edad</label>
+                <input type="number" id="number" min="5" max="100" placeholder="   Edad">
+            </div>
+            <div id="formGrup">
+                <p>¿Que parte te gusta más?</p>
+                <select name="Que te gusta mas" id="dropdown">
+                    <option value="frontEnd"> Front End</option>
+                    <option value="backEnd"> Back End</option>
+                    <option value="nose"> Todavia Nose</option>
+                </select>    
+            </div>
+            <div id="formGrup">
+                <p>¿Recomendarias que aprendan otras personas Programacion?</p>
+                <label>
+                    <input name="recomendar" type="radio" value="si">
+                    Si
+                </label>
+                <label>
+                    <input name="recomendar" type="radio" value="no">
+                    No
+                </label>
+                <label>
+                    <input name="recomendar" type="radio" value="puedeSer">
+                    Puede ser
+                </label>
+            </div>
+            <div id="formGrup">
+                <p>¿Que parte del mundo IT queres trabajar?</p>
+                <label>
+                    <input type="checkbox" value="1" id="">
+                    Programador
+                </label>
+                <label>
+                    <input type="checkbox" value="2" id="">
+                    Testing
+                </label>
+                <label>
+                    <input type="checkbox" value="3" id="">
+                    Product Manager
+                </label>
+                <label>
+                    <input type="checkbox" value="4" id="">
+                    UX/UI
+                </label>
+                <label>
+                    <input type="checkbox" value="5" id="">
+                    Soporte
+                </label>
+                <label>
+                    <input type="checkbox" value="6" id="">
+                    Ciber Seguridad
+                </label>
+                <label>
+                    <input type="checkbox" value="7" id="">
+                    Analista de Datos
+                </label>
+                <label>
+                    <input type="checkbox" value="8" id="">
+                    Otros
+                </label>
+            </div>
+           <div id="formGrup">
+            <p>Si tiene algun comentario</p>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese Comentario aquí"></textarea>
+           </div>
+           <button type="submit" id="submit">Submit</button>  
+        </form>
+    </main>
+</body>
+</html>
